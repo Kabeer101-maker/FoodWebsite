@@ -1,0 +1,499 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans;
+  box-sizing: border-box;
+}
+
+.icons button:hover {
+  border: 2.1px solid white;
+  color: rgba(255, 123, 0, 0.896);
+  background-color: white;
+}
+
+.website-pic button:hover {
+  border: 2.1px solid white;
+  color: rgba(255, 123, 0, 0.896);
+  background-color: white;
+}
+
+.box-image button:hover {
+  border: 2.1px solid white;
+  color: rgba(255, 123, 0, 0.896);
+  background-color: white;
+}
+
+.box-images button:hover {
+  border: 2.1px solid white;
+  color: rgba(255, 123, 0, 0.896);
+  background-color: white;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+  text-decoration: underline;
+}
+
+.footer-anchors a:hover {
+  color: rgba(255, 123, 0, 0.896);
+}
+
+body {
+  background-color: black;
+}
+
+.nav-bar {
+  height: 5.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  z-index: 2;
+}
+
+.website-logo {
+  height: 5rem;
+  width: 13.8rem;
+  color: rgba(255, 179, 0, 0.915);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.anchors {
+  height: 5rem;
+  width: 35rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.anchors .differ1 {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: white;
+  height: 2.7rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anchors .differ2 {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: white;
+  height: 2.7rem;
+  width: 7.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first {
+  color: rgba(255, 179, 0, 0.915);
+}
+
+.icons {
+  height: 5rem;
+  width: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons i {
+  height: 2rem;
+  width: 3rem;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons button {
+  height: 3rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgba(255, 179, 0, 0.915);
+  border-radius: 18px;
+  cursor: pointer;
+  /* border: none; */
+}
+
+.box1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.box1 h1 {
+  height: 5rem;
+  width: 81.4rem;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.144),
+    rgba(165, 42, 42, 0.428)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-pic button {
+  height: 3.2rem;
+  width: 10rem;
+  font-size: 1.3rem;
+  color: white;
+  background-color: rgba(255, 179, 0, 0.915);
+  border-radius: 18px;
+  cursor: pointer;
+  margin: 2.5rem;
+  /* border: none; */
+}
+
+.website-pic {
+  height: 62.7rem;
+  width: 100%;
+  background: url("spaghetti2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-menu-para {
+  margin-left: 32.5rem;
+  height: 4rem;
+  width: 18.3rem;
+  border-bottom: 2px solid rgba(255, 123, 0, 0.896);
+}
+
+#menu-para {
+  margin-top: 2.5rem;
+  height: 3rem;
+  width: 18.8rem;
+  color: white;
+  font-size: 3rem;
+}
+
+#name1 {
+  height: 4rem;
+  width: 6rem;
+  margin-top: 4rem;
+  margin-left: 1.6rem;
+  border-bottom: 3.8px solid rgba(255, 123, 0, 0.896);
+}
+
+#small {
+  height: 4rem;
+  width: 13.8rem;
+}
+
+.align-pics {
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.middle-pics {
+  height: 30rem;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.image {
+  height: 27rem;
+  width: 18.6rem;
+}
+
+.box-image {
+  height: 26.3rem;
+  width: 18rem;
+  background-color: #1c1816;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 18rem;
+  width: 18rem;
+  background-color: #1c1816;
+}
+
+h3 {
+  margin-bottom: 1.7rem;
+  padding-left: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.btn {
+  height: 2.5rem;
+  width: 18rem;
+  display: flex;
+  justify-content: center;
+}
+
+.box-image button {
+  font-size: 1.2rem;
+  height: 2.5rem;
+  width: 11rem;
+  background-color: rgba(255, 179, 0, 0.915);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: none; */
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.extra {
+  height: 1.5rem;
+  width: 18rem;
+  background-color: purple;
+  position: relative;
+  top: -1.1rem;
+}
+
+/*2nd portion of images*/
+#name2 {
+  height: 4rem;
+  width: 6rem;
+  margin-top: 8rem;
+  margin-left: 1.6rem;
+  border-bottom: 3.8px solid rgba(255, 123, 0, 0.896);
+}
+
+#smaller {
+  height: 4rem;
+  width: 21rem;
+  margin-top: 7rem;
+}
+
+.align-pics-images {
+  height: 32rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.middle-pics-images {
+  height: 40rem;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.images {
+  height: 27rem;
+  width: 18.6rem;
+}
+
+.box-images {
+  height: 32rem;
+  width: 19rem;
+  background-color: #1c1816;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  padding-left: 1rem;
+}
+
+.para {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.box-images button {
+  font-size: 1.2rem;
+  height: 2.5rem;
+  width: 11rem;
+  background-color: rgba(255, 179, 0, 0.915);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: none; */
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+/* 3rd portion of images */
+#name3 {
+  height: 4rem;
+  width: 6rem;
+  margin-left: 1.6rem;
+  border-bottom: 3.8px solid rgba(255, 123, 0, 0.896);
+}
+
+#smallest {
+  height: 4rem;
+  width: 21.5rem;
+  margin-top: 5.5rem;
+}
+
+/* 4th portion of images */
+#name4 {
+  height: 4rem;
+  width: 6rem;
+  margin-top: 4rem;
+  margin-left: 1.6rem;
+  border-bottom: 3.8px solid rgba(255, 123, 0, 0.896);
+}
+
+#very-small {
+  height: 4rem;
+  width: 26.8rem;
+}
+
+.align-pics-imagess {
+  height: 67rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+/* footer */
+footer {
+  height: 33.3rem;
+  width: 100%;
+  background-color: #1c1816;
+  padding-top: 3rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  height: 7rem;
+  width: 45rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#p-box {
+  margin-top: 1rem;
+  height: 4rem;
+  width: 15rem;
+  color: rgba(255, 123, 0, 0.896);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#pa {
+  font-size: 2.5rem;
+  color: rgba(255, 179, 0, 0.915);
+}
+
+.footer-links {
+  height: 7rem;
+  width: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.p-boxes {
+  height: 2rem;
+  width: 13rem;
+}
+
+.footer-links .bord {
+  border: none;
+}
+
+.link {
+  height: 3rem;
+  width: 3.3rem;
+  border-radius: 50%;
+  /* mix-blend-mode: multiply; */
+}
+
+.footer-anchors {
+  height: 9.1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 12rem;
+  margin-top: 2rem;
+}
+
+.footer-anchors a {
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 14rem;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.copyright {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+#last1 {
+  height: 5rem;
+  width: 14rem;
+  font-size: 1.5rem;
+  padding-top: 2.2rem;
+}
+
+h4 {
+  padding: 0 0 0.5rem 1rem;
+  color: rgba(255, 123, 0, 0.896);
+}
+
+.last-box {
+  height: 1.9rem;
+  width: 14rem;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
